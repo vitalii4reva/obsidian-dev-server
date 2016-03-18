@@ -54,7 +54,7 @@ exports.build = function(req, res){
 
   spw.stdout.on('data', function (data) {
       str += data.toString();
-      console.log('data');
+      // console.log('data');
   });
 
   spw.on('close', function (code) {
