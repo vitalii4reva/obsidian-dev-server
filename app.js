@@ -30,7 +30,7 @@ app.configure('production', function(){
 
 // Routes
 
-app.get('/ss', routes.index);
+app.get('/', routes.index);
 
 app.get('/pul', routes.pul);
 
